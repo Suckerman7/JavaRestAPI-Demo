@@ -1,7 +1,12 @@
+package org.mertyuksel.restapidemo;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Bean;
 
-@configuration
+@SpringBootApplication
 public class DataAccessConfiguration {
 
     @Bean
