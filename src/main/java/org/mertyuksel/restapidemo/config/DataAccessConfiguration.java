@@ -7,7 +7,10 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
+@Configuration
 public class DataAccessConfiguration {
+
+    @Autowired Environment env;
 
     @Bean
     public DataSource dataSource() {
@@ -15,6 +18,7 @@ public class DataAccessConfiguration {
         dataSource.setDriverClassName(env.getProperty("driverClassName"));
         dataSource.setUrl(env.getProperty("url"));
         dataSource.setUsername(env.getProperty("username"));
+        dataSource.setUsername(env.getProperty("user"));
         dataSource.setPassword(env.getProperty("password"));
         return dataSource;
     }
