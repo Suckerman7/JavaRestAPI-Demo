@@ -6,8 +6,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
-public static Configuration getConfiguration()
-
 @Configuration
 public class DataAccessConfiguration {
 
