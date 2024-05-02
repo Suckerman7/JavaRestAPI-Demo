@@ -6,7 +6,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.restapidemo.DataAccessConfiguration;
+import org.mertyuksel.restapidemo.DataSource;
 
 @Configuration
 public class DataAccessConfiguration {
