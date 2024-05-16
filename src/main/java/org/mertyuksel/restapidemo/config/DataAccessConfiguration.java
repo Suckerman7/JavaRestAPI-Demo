@@ -1,12 +1,12 @@
-package org.mertyuksel.restapidemo;
+package org.mertyuksel.restapidemo.config;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.context.ApplicationContext;
+
+import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-//import java.org.mertyuksel.restapidemo.DataSource;
+
+import javax.sql.DataSource;
+
 
 @Configuration
 public class DataAccessConfiguration {
