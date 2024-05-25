@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+logs/java-rest-api-demo.log.2024-05-23.0.gz
+logs/java-rest-api-demo.log
+*.log
